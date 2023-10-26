@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap');
+
+label{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+input,textarea{
+    background: #D9D9D9;
+    width: 25%;
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 10px 10px;
+    background: #E5B541;
+    width: 6%;
+
+}
+.mail_icon{
+    top: 6px;
+    position: relative;
+    height: 20px;
+}
+.whatsapp_icon{
+    position: relative;
+    top: 4px;
+    height: 20px;
+}
+.contact_us_container{
+    display: flex;
+}
