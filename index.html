@@ -13,6 +13,81 @@
 </head>
 
 <body>
+    <div class="header">
+        <div class="icons">
+            <a href="#"><img src="./images/facebook.png" alt="" /></a>
+            <a href="#"><img src="./images/insta.png" alt="" /></i></a>
+            <a href="#"><img src="./images/linkedin.png" alt="" /></i></a>
+        </div>
+        <div class="logo"><img src="./images/logo.png" /></div>
+        <div class="search">
+            <a href="#"><img src="./images/search.png" /></a></i></a>
+        </div>
+    </div>
+      <div class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Magazine</a></li>
+        <li><a href="#">Article</a></li>
+        <li><a href="#">Post</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide" style="background-color: #000;">Slide 1</div>
+        <div class="slide" style="background-color: #000;">Slide 2</div>
+        <div class="slide" style="background-color: #000;">Slide 3</div>
+    </div>
+</div>
+
+<div class="overlay-img">
+    <img src="./images/Group 105.png" alt="">
+</div>
+<div class="bussiness">
+    <div>  <h1 class="heading">Business News</h1></div>
+  <div><a class="btn" href="#" style="padding-top: 12px">View All   ></a></div> 
+  
+</div>
+<div class="container">
+    <div class="first-div">First</div>
+    <div class="center-div" >
+        <div class="nested-div">Center 1</div>
+        <div class="nested-div">Center 2</div>
+        <div class="nested-div">Center 3</div>
+    </div>
+    <div class="last-div">Last</div>
+</div>
+
+<div>
+    <div class="leadership-talks">
+        <div>  <h1 class="heading">LeaderShip Talks</h1></div>
+      <div style="margin-top: 1.2%;"><a class="btn" href="#" style="padding-top: 12px">View All   ></a></div> 
+    </div>
+    <div class="leadership-card-container">
+        <div class="leadership-card">
+            <div>
+                <img src="./images/Rectangle 48.png" alt="Card 1">
+                <div class="leadership-img-content">BUSINESS <br>
+                    5 tips on how to be productive like Elon Musk.</div>
+            </div>
+            
+        </div>
+    
+        <div class="leadership-card">
+            <div>
+                <img src="./images/Rectangle 49.png" alt="Card 2">
+                <div class="leadership-img-content">BUSINESS<br>
+                    Empowering Women in Leadership: Lessons from Sheryl Sandberg, COO of Meta Platforms.</div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
     <h1 class="headings">CONTACT US</h1>
     <div class="contact_us_container">
         <form>
@@ -26,7 +101,10 @@
                     <input type="text" id="subject" />
                     <label for="message">Message</label>
                     <textarea id="message"></textarea>
-                    <button>Submit</button>
+                    <div class="contact-form-button">
+                        <button type="submit">Submit</button>
+                    </div>
+                    
                 </div>
             </div>
         </form>
@@ -106,8 +184,8 @@
 
     <!-- Magazines Page -->
     <div>
-        <h1>Magazines</h1>
-        <p>
+        <h1 class="headings">Magazines</h1>
+        <p class="magazines_desc">
             "Welcome to the Magazine Section of Business Minds Media! Explore our ever-expanding collection of
             industry-leading magazines, spanning diverse sectors.
             We prioritize authenticity and excellence in each magazine, offering a wealth of leadership insights, expert
@@ -119,8 +197,19 @@
             Join us on this journey as we strive to become your top destination for valuable business insights that
             shape the corporate landscape and enhance your expertise."
         </p>
-        <div>
-            Magazines Hoge idhar sab photos
+        <div class="magazine-card-container">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/4 (1).png" class="card-img-top" alt="">
+              </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/1 10.png" class="card-img-top" alt="">
+              </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/2.png" class="card-img-top" alt="">
+              </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./images//3 1.png" class="card-img-top" alt="">
+              </div>
         </div>
     </div>
 
@@ -170,10 +259,12 @@
     </div>
 
     <!-- Home Page  -->
-
-    <img>
-    Sign Up for campaign page
-    <img src="./images/Group 95.png"><img src="./images/Rectangle 58.png"></img>
+    <slider></slider>
+    <div>
+        <img src="./images/Group 105.png" alt="#" style="position: absolute;width:100%;">
+        <button>Sign Up for Campaign </button>
+    </div>
+    
 
     </div>
     <div>
@@ -274,23 +365,35 @@
         </div>
     </div>
     <!-- Sign Up For Campaign Page -->
-    <div>
-        <div>
+    <div class="campaign-container">
+        <div class="campaign-top">
             <div>
-                Background Image
+                <img style="margin-left: 15%;;" width="431px" height="273px" src="./images/Firefly 2 Women from Middle East looking towards to the desert in a sunset 40296 (1) 1 (1).png">
             </div>
-            <h3>
-                Middle East’s Most inspiring
-                <span>women leaders</span>
-                in business.
-            </h3>
+            <div class="campaign-top-side">
+                <h3>
+                    Middle East's Most Inspirational Women in Leadership
+                </h3>
+                <p>
+                    Welcome to the campaign that celebrates the remarkable women who are making an indelible mark on leadership in the Middle East.
+                    <br>
+                    <br>
+                    Our team is on a mission to recognize the women who are leading with innovation and inspiration in the Middle East. We're searching for those who have shown resilience, vision, and a commitment to driving change in the region.
+                    <br>
+                    <br>
+                    As part of our campaign, we will feature and celebrate the profiles of the most outstanding women leaders in the Middle East. We'll shed light on your journey, your achievements, and your vision for the future of leadership in the region.
+                    <br>
+                    <br>
+                    Join us in celebrating the Middle East's Most Inspirational Women in Leadership and share your story with us. Together, let's inspire and empower others with your leadership narrative.
+                </p>
+            </div>s
         </div>
         <!-- Campaign Form -->
-        <div>
+        <div class="campaign-bottom">
             <div>
-                <h2>Submit Your <span>Nominations</span> Here!</h2>
-                <form>
-                    <div>
+                <h2 class="campaign-heading">Submit Your <br><span>Nominations</span> Here<span>!</span></h2>
+                <form class="campaign-form">
+                    <div class="campaign-form-data">
                         <input type="text" placeholder="Name" />
                         <input type="email" placeholder="Email" />
                         <input type="text" placeholder="Designation" />
@@ -299,23 +402,6 @@
                         <button type="submit">Submit</button>
                     </div>
                 </form>
-            </div>
-            <div>
-                <h2>Middle East's Most Inspirational Women in Leadership</h2>
-                <p>Welcome to the campaign that celebrates the remarkable women who are making an indelible mark on
-                    leadership in the Middle East.
-
-                    Our team is on a mission to recognize the women who are leading with innovation and inspiration in
-                    the Middle East. We're searching for those who have shown resilience, vision, and a commitment to
-                    driving change in the region.
-
-                    As part of our campaign, we will feature and celebrate the profiles of the most outstanding women
-                    leaders in the Middle East. We'll shed light on your journey, your achievements, and your vision for
-                    the future of leadership in the region.
-
-                    Join us in celebrating the Middle East's Most Inspirational Women in Leadership and share your story
-                    with us. Together, let's inspire and empower others with your leadership narrative.
-                </p>
             </div>
         </div>
         <!-- Blogs Page -->
@@ -416,6 +502,24 @@
             </div>
         </div>
     </div>
+    <script>  const slider = document.querySelector(".slider");
+        const slides = document.querySelectorAll(".slide");
+
+        let slideIndex = 0;
+        const slideWidth = slides[0].offsetWidth;
+
+        function nextSlide() {
+            slideIndex = (slideIndex + 1) % slides.length;
+            updateSliderPosition();
+        }
+
+        function updateSliderPosition() {
+            const offset = -slideIndex * slideWidth;
+            slider.style.transform = `translateX(${offset}px)`;
+        }
+
+        setInterval(nextSlide, 3000); // Change slide every 3 seconds
+ </script>
 </body>
 
 </html>
