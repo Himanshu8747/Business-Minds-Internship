@@ -477,7 +477,6 @@ input[type=number] {
 }
 .leadership-card{
     width: 40%;
-    border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
@@ -498,14 +497,54 @@ input[type=number] {
     height: 400px;
     justify-content: center;
 }
-.leadership-img-content{
-    height: 50px;
+.leadership-img-content1 {
+    height: 60px;
     width: 440px;
     margin-top: -25px;
-    left: 20.2%;
+    left: 20.3%;
     position: absolute;
-    background-color:white;
+    background-color: white;
     color: black;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(140, 139, 139, 0.19);
+}
+.leadership-img-content2 {
+    height: 60px;
+    width: 440px;
+    margin-top: -25px;
+    left: 55.4%;
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(140, 139, 139, 0.19);
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card {
+    width: 234px;
+    height: 234px;
+    background-color: #f0f0f0;
+  }
+
+  .second-row-card {
+    margin-top: 10px;
+    width: 83%;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+
+.aritcle-blog-heading-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+} 
+
+.article-container{
+    margin-left: 12%;
 }
